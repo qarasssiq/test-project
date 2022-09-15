@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+body {
+    background: #162831;
+}
+
+.main-header {
+    margin: auto;
+    margin-top: 30px;
+    width: 67.6%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 140%;
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+}
+
+.frame1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+}
+
+.frame2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 15px;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    height: 36px;
+}
+
+.accent {
+    background: #018ABE;
+    border-radius: 3px;
+}
+
+.first-screen {
+    margin: auto;
+    width: 67.6%;
+    height: 600px;
+    align-items: center;
+
+    background: url('../images/splash.jpg');
+    border-radius: 10px;
+}
+
+.rectangle-5 {
+    width: 28px;
+    height: 14px;
+    background: #FFFFFF;
+    border-radius: 0px 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    display: inline-block;
+
+    margin-left: 66px;
+
+    align-self: center;
+}
+
+.rectangle-3 {
+    width: 28px;
+    height: 14px;
+    background: #FFFFFF;
+    border-radius: 50px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    display: inline-block;
+
+    margin-right: 66px;
+
+    align-self: center;
+}
+
+.services {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 67.6%;
+    height: 699px;
+    margin-top: 150px;
+    align-items: center;
+}
