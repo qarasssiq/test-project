@@ -2,24 +2,25 @@
 <head>
     <title>W</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="main-header">
         <div><img src = "images/w.svg" alt="W logo"/></div>
         <div class="frame1">
-            <a href=""><p>Главная</p></a>
-            <a href=""><p>Сеансы</p></a>
-            <a href=""><p>Отзывы</p></a>
-            <a href=""><p>Контакты</p></a>
-            <a href=""><p>Новости</p></a>
-            <a href=""><p>Обо мне</p></a>
-            <a href=""><p>Блог</p></a>
+            <a href="index.html"><p>Главная</p></a>
+            <a href="#services"><p>Сеансы</p></a>
+            <a href="#reviews"><p>Отзывы</p></a>
+            <a href="#contacts"><p>Контакты</p></a>
+            <a href="news.html"><p>Новости</p></a>
+            <a href="#about"><p>Обо мне</p></a>
+            <a href="blog.html"><p>Блог</p></a>
         </div>
-        <div class="frame2 accent">
-            <a href=""><p>Записаться на сеанс</p></a>
-        </div>
+        <a href="">
+            <div class="frame2 accent">
+                <p>Записаться на сеанс</p>
+            </div>
+        </a>
     </header>
     <main style="margin-top: 50px;">
         <div class="first-screen">
@@ -28,12 +29,91 @@
                 <p class="heading" style="font-size: 24px; display:inline-block;">Укрепление здоровья</p>
                 <div class="rectangle-5"></div>
             </div>
-            <p class="heading" style="font-size: 64px; margin-top: 40px; line-height: 150%;">Акватерапия<br>RitmStyle</p>
+            <p class="heading center" style="font-size: 64px; margin-top: 40px; line-height: 150%;">Акватерапия<br>RitmStyle</p>
         </div>
-        <div class="services" style="background: white;">
 
+        <div id="services" class="services">
+            <div class="item heading item_1">
+                <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;">
+                    <div class="rectangle-3" style="background: #018ABE;"></div>
+                        <p class="heading" style="font-size: 42px; display:inline-block;">Сеансы RitmStyle</p>
+                    <div class="rectangle-5" style="background: #018ABE;"></div>
+                </div>
+            </div>
+            <div class="item item_2">
+                <div style="position: absolute; left: 50px; bottom: 50px;">
+                    <p class="heading" style="font-size: 24px; text-align: left;">Стандартный RitmStyle</p>
+                </div>
+                <div class="rectangle-13 accent"></div>
+                <a href="" class="item-link"></a>
+            </div>
+            <div class="item item_3">
+                <p class="heading" style="font-size: 24px; position: absolute; left: 40px; bottom: 30px; text-align: left;">RitmStyle для пар</p>
+                <a href="" class="item-link"></a>
+            </div>
+            <div class="item item_4">
+                <p class="heading" style="font-size: 24px; position: absolute; left: 40px; bottom: 30px; text-align: left;">RitmStyle с полным<br>погружением под воду</p>
+                <a href="" class="item-link"></a>
+            </div>
+            <div class="item item_5">
+                <p class="heading" style="font-size: 24px; position: absolute; left: 40px; bottom: 30px; text-align: left;">RitmStyle для беременных</p>
+                <a href="" class="item-link"></a>
+            </div>
+            <div class="item item_6">
+                <p class="heading" style="font-size: 24px; position: absolute; left: 40px; bottom: 30px; text-align: left;">RitmStyle + красочная<br>подводная фотосессия</p>
+                <a href="" class="item-link"></a>
+            </div>
+        </div>
+
+        <div id="reviews" class="reviews">
+            <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;">
+                <div class="rectangle-3" style="background: #018ABE;"></div>
+                    <p class="heading" style="font-size: 42px; display: inline-block;">Отзывы</p>
+                <div class="rectangle-5" style="background: #018ABE;"></div>
+            </div>
+            <div class="slider"></div>
+        </div>
+
+        <div id="about" class="about-grid">
+            <div class="item about-grid-item-heading">
+                <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;">
+                    <div class="rectangle-3" style="background: #018ABE;"></div>
+                        <p class="heading" style="font-size: 42px; display: inline-block;">Об RitmStyle</p>
+                    <div class="rectangle-5" style="background: #018ABE;"></div>
+                </div>
+            </div>
+            <div class="item about-grid-item-text-1">
+                <p class="heading montserrat" style="font-size: 24px; margin-bottom: 30px;">RitmStyle массаж</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis adipiscing. Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.</p>
+            </div>
+            <div class="item about-grid-item-image-1"></div>
+            <div class="item about-grid-item-image-2"></div>
+            <div class="item about-grid-item-text-2">
+                <p class="heading montserrat" style="font-size: 24px; margin-bottom: 30px;">RitmStyle гидротерапия</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut viverra turpis eget. Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu, pulvinar penatibus luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis ultricies sem nunc risus senectus luctus ultricies. Enim feugiat pharetra pharetra et.</p>
+                &nbsp
+                <p>Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id sed tempor elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. Hendrerit blandit in augue vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae id aliquam. Magna sed tristique tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat libero tellus diam egestas dui tellus odio.</p>
+            </div>
+        </div>
+
+        <div class="price">
+            <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;">
+                <div class="rectangle-3" style="background: #018ABE;"></div>
+                    <p class="heading" style="font-size: 42px; display: inline-block;">Стоимость сеансов</p>
+                <div class="rectangle-5" style="background: #018ABE;"></div>
+            </div>
+        </div>
+
+        <div id="contacts" class="contacts">
+            <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;">
+            
+            </div>
         </div>
     </main>
+    <footer class="main-footer">
+        <p>© 2018-2022 RitmStyle</p>
+        <p>Сделано d-e-n.info</p>
+    </footer>
 </body>
 <script src="scripts/script.js"></script>
 </html>
