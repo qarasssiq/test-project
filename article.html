@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <header class="main-header" style="border-bottom: 1px solid rgba(255, 255, 255, .5);">
+    <header class="header header_secondary">
         <div><img src = "images/w.svg" alt="W logo"/></div>
         <div class="nav-panel">
             <a href="index.html"><p>Главная</p></a>
@@ -26,16 +26,15 @@
         </a>
     </header>
 
-    <main style="margin-top: 60px;">
-        <div class="heading">
-            <div class="string-with-rectangles">
-                <div class="rectangle left"></div>
-                <p class="heading" style="font-size: 42px; display:inline-block;">Новый формат сеансов</p>
-                <div class="rectangle right"></div>
-            </div>
+    <main class="article-main">
+        <div class="string-with-rectangles">
+            <div class="rectangle rectangle_left"></div>
+            <p class="article__heading heading">Новый формат сеансов</p>
+            <div class="rectangle rectangle_right"></div>
         </div>
-        <article class="article-grid">
-            <div class="item">
+        </div>
+        <article class="article">
+            <div class="article__content">
                 <div class="frame">
                     <p>13.02.2022</p>
                 </div>
@@ -44,15 +43,13 @@
                 <p>Tempor facilisis tellus ac, odio. A amet congue tristique nibh malesuada lectus. Purus quam dapibus rhoncus iaculis amet tristique. Mattis fusce lorem fames mauris orci rhoncus, amet fringilla. Quis integer vitae at vitae urna etiam sed eu sit.</p>
                 <p>Vitae turpis ullamcorper habitant fermentum aliquet volutpat.</p>
             </div>
-            <div class="item">
-                <img src="images/article-image.jpg" style="border-radius: 10px;">
-            </div>
+            <img class="article__image" src="images/article-image.jpg">
         </article>
     </main>
 
-    <footer class="main-footer" style="border-top: 1px solid rgba(255, 255, 255, .5);">
-        <p style="font-weight: 400;">© 2018-2022 RitmStyle</p>
-        <p style="font-weight: 700;">Сделано d-e-n.info</p>
+    <footer class="footer footer_secondary">
+        <p>© 2018-2022 RitmStyle</p>
+        <p>Сделано d-e-n.info</p>
     </footer>
 </body>
 
