@@ -121,8 +121,6 @@
 
 .slick-dots
 {
-    position: absolute;
-
     display: block;
 
     width: 100%;
@@ -141,7 +139,7 @@
 
     width: 16px;
     height: 16px;
-    margin: 0 5px;
+    margin: 0 20px;
     padding: 0;
 
     cursor: pointer;
@@ -155,7 +153,6 @@
 
     width: 16px;
     height: 16px;
-    padding: 5px;
 
     cursor: pointer;
 
@@ -190,14 +187,14 @@
     content: '•';
     text-align: center;
 
-    opacity: .25;
+    border-radius: 3px;
+
+    opacity: .4;
     color: #FFFFFF;
     background-color: #FFFFFF;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    border-radius: 3px;
 }
 .slick-dots li.slick-active button:before
 {

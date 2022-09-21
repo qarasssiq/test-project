@@ -10,7 +10,7 @@
 <body>
     <header class="main-header" style="border-bottom: 1px solid rgba(255, 255, 255, .5);">
         <div><img src = "images/w.svg" alt="W logo"/></div>
-        <div class="frame1">
+        <div class="nav-panel">
             <a href="index.html"><p>Главная</p></a>
             <a href="index.html#services"><p>Сеансы</p></a>
             <a href="index.html#reviews"><p>Отзывы</p></a>
@@ -19,8 +19,8 @@
             <a href="index.html#about"><p>Обо мне</p></a>
             <a href="blog.html"><p>Блог</p></a>
         </div>
-        <a href="">
-            <div class="frame2 accent">
+        <a id="open-popup" href="#" class="open-popup">
+            <div class="frame">
                 <p>Записаться на сеанс</p>
             </div>
         </a>
@@ -29,49 +29,49 @@
     <main style="margin-top: 60px;">
         <div class="heading">
             <div class="string-with-rectangles">
-                <div class="rectangle left accent"></div>
+                <div class="rectangle left"></div>
                 <p class="heading" style="font-size: 42px; display:inline-block;">Новости</p>
-                <div class="rectangle right accent"></div>
+                <div class="rectangle right"></div>
             </div>
         </div>
-        <section id="news" class="news">
+        <section class="news">
             <div class="item">
-                <div class="frame2 accent">
+                <div class="frame">
                     <p>13.02.2022</p>
                 </div>
                 <p class="heading">Новый формат сеансов</p>
                 <a href="article.html" class="item-link"></a>
             </div>
             <div class="item">
-                <div class="frame2 accent">
+                <div class="frame">
                     <p>13.02.2022</p>
                 </div>
                 <p class="heading">Новый формат сеансов</p>
                 <a href="article.html" class="item-link"></a>
             </div>
             <div class="item">
-                <div class="frame2 accent">
+                <div class="frame">
                     <p>13.02.2022</p>
                 </div>
                 <p class="heading">Новый формат сеансов</p>
                 <a href="article.html" class="item-link"></a>
             </div>
             <div class="item">
-                <div class="frame2 accent">
+                <div class="frame">
                     <p>13.02.2022</p>
                 </div>
                 <p class="heading">Новый формат сеансов</p>
                 <a href="article.html" class="item-link"></a>
             </div>
             <div class="item">
-                <div class="frame2 accent">
+                <div class="frame">
                     <p>13.02.2022</p>
                 </div>
                 <p class="heading">Новый формат сеансов</p>
                 <a href="article.html" class="item-link"></a>
             </div>
             <div class="item">
-                <div class="frame2 accent">
+                <div class="frame">
                     <p>13.02.2022</p>
                 </div>
                 <p class="heading">Новый формат сеансов</p>
@@ -86,6 +86,24 @@
     </footer>
 </body>
 
+<div id="popup-bg" class="popup-bg">
+    <div class="popup">
+        <img class="close-popup" src="images/close-icon.png" alt="icon">
+        <form id="form" action="" onsubmit="return validateForm();">
+            <input type="text" id="name" name="popup-form" placeholder="Имя Фамилия" required>
+            <input type="email" name="popup-form" placeholder="Электронная почта" required>
+            <input type="tel" id="phone" name="popup-form" placeholder="Телефон" required>
+            <select name="select" required>
+                <option value="value1" selected>Невский 140</option>
+                <option value="value2" selected>3-й проезд Иванова</option>
+            </select>
+            <input type="submit" value="Отправить заявку">
+        </form>
+    </div>
+</div>
+
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/slick/slick.js"></script>
 <script src="js/script.js"></script>
 
 </html>

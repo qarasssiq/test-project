@@ -10,7 +10,7 @@
 <body>
     <header class="main-header">
         <div><img src = "images/w.svg" alt="W logo"/></div>
-        <div class="frame1">
+        <div class="nav-panel">
             <a href="index.html"><p>Главная</p></a>
             <a href="#services"><p>Сеансы</p></a>
             <a href="#reviews"><p>Отзывы</p></a>
@@ -19,122 +19,139 @@
             <a href="#about"><p>Обо мне</p></a>
             <a href="blog.html"><p>Блог</p></a>
         </div>
-        <a href="">
-            <div class="frame2 accent">
+        <a id="open-popup" href="#" class="open-popup">
+            <div class="frame">
                 <p>Записаться на сеанс</p>
             </div>
         </a>
     </header>
+
     <main style="margin-top: 50px;">
         <div class="first-screen">
             <div class="string-with-rectangles" style="padding-top: 136px;">
                 <div class="rectangle left"></div>
-                <p class="heading" style="font-size: 24px; display:inline-block;">Укрепление здоровья</p>
+                <p class="heading">Укрепление здоровья</p>
                 <div class="rectangle right"></div>
             </div>
-            <p class="heading center" style="font-size: 64px; margin-top: 40px; line-height: 150%;">Акватерапия<br>RitmStyle</p>
+            <p class="heading">Акватерапия<br>RitmStyle</p>
         </div>
 
         <div id="services" class="services">
-            <div class="item heading item_1">
+            <div class="heading item_1">
                 <div class="string-with-rectangles">
-                    <div class="rectangle left accent"></div>
+                    <div class="rectangle left"></div>
                     <p class="heading" style="font-size: 42px; display:inline-block;">Сеансы RitmStyle</p>
-                    <div class="rectangle right accent"></div>
+                    <div class="rectangle right"></div>
                 </div>
             </div>
             <div class="item item_2">
                 <div style="position: absolute; left: 50px; bottom: 50px;">
                     <p class="heading" style="font-size: 24px; text-align: left;">Стандартный RitmStyle</p>
                 </div>
-                <div class="rectangle-13 accent"></div>
+                <div class="rectangle--wide"></div>
                 <a href="" class="item-link"></a>
             </div>
             <div class="item item_3">
-                <p class="heading" style="font-size: 24px; position: absolute; left: 40px; bottom: 30px; text-align: left;">RitmStyle для пар</p>
+                <p class="heading">RitmStyle для пар</p>
                 <a href="" class="item-link"></a>
             </div>
             <div class="item item_4">
-                <p class="heading" style="font-size: 24px; position: absolute; left: 40px; bottom: 30px; text-align: left;">RitmStyle с полным<br>погружением под воду</p>
+                <p class="heading">RitmStyle с полным<br>погружением под воду</p>
                 <a href="" class="item-link"></a>
             </div>
             <div class="item item_5">
-                <p class="heading" style="font-size: 24px; position: absolute; left: 40px; bottom: 30px; text-align: left;">RitmStyle для беременных</p>
+                <p class="heading">RitmStyle для беременных</p>
                 <a href="" class="item-link"></a>
             </div>
             <div class="item item_6">
-                <p class="heading" style="font-size: 24px; position: absolute; left: 40px; bottom: 30px; text-align: left;">RitmStyle + красочная<br>подводная фотосессия</p>
+                <p class="heading">RitmStyle + красочная<br>подводная фотосессия</p>
                 <a href="" class="item-link"></a>
             </div>
         </div>
 
         <div id="reviews" class="reviews">
             <div class="string-with-rectangles">
-                <div class="rectangle left accent"></div>
-                <p class="heading" style="font-size: 42px; display: inline-block;">Отзывы</p>
-                <div class="rectangle right accent"></div>
+                <div class="rectangle left"></div>
+                <p class="heading">Отзывы</p>
+                <div class="rectangle right"></div>
             </div>
-            <div class="slider center" style="margin-top: 100px;">
-                <div class="review">1</div>
-                <div class="review">2</div>
-                <div class="review">3</div>
-                <div class="review">4</div>
+            <div class="slider">
+                <div class="review">
+                    <p class="heading">Кира Иванова</p>
+                    <p class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                    <p class="review__text">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.</p>
+                </div>
+                <div class="review">
+                    <p class="heading">Яна Жернова</p>
+                    <p class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                    <p class="review__text">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.</p>
+                </div>
+                <div class="review">
+                    <p class="heading">Екатерина Сидорова</p>
+                    <p class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                    <p class="review__text">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.</p>
+                </div>
+                <div class="review">
+                    <p class="heading">Александра Дмитриева</p>
+                    <p class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                    <p class="review__text">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.</p>
+                </div>
             </div>
         </div>
 
         <div id="about" class="about-grid">
             <div class="item about-grid-item-heading">
                 <div class="string-with-rectangles">
-                    <div class="rectangle left accent"></div>
-                    <p class="heading" style="font-size: 42px; display: inline-block;">Об RitmStyle</p>
-                    <div class="rectangle right accent"></div>
+                    <div class="rectangle left"></div>
+                    <p class="heading">Об RitmStyle</p>
+                    <div class="rectangle right"></div>
                 </div>
             </div>
-            <div class="item about-grid-item-text-1">
-                <p class="heading montserrat" style="font-size: 24px; margin-bottom: 30px;">RitmStyle массаж</p>
+            <div class="item about-grid-item-text1">
+                <p class="heading montserrat">RitmStyle массаж</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis adipiscing.</p>
                 <p>Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.</p>
             </div>
-            <div class="item about-grid-item-image-1"></div>
-            <div class="item about-grid-item-image-2"></div>
-            <div class="item about-grid-item-text-2">
-                <p class="heading montserrat" style="font-size: 24px; margin-bottom: 30px;">RitmStyle гидротерапия</p>
+            <div class="item about-grid-item-image"></div>
+            <div class="item about-grid-item-image"></div>
+            <div class="item about-grid-item-text2">
+                <p class="heading montserrat">RitmStyle гидротерапия</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut viverra turpis eget. Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu, pulvinar penatibus luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis ultricies sem nunc risus senectus luctus ultricies. Enim feugiat pharetra pharetra et.</p>
                 <p>Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id sed tempor elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. Hendrerit blandit in augue vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae id aliquam. Magna sed tristique tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat libero tellus diam egestas dui tellus odio.</p>
             </div>
         </div>
 
-        <div id="price" class="price-grid">
+        <div class="price-grid">
             <div class="item price-grid-item-heading">
                 <div class="string-with-rectangles">
-                    <div class="rectangle left accent"></div>
-                    <p class="heading" style="font-size: 42px; display: inline-block;">Стоимость сеансов</p>
-                    <div class="rectangle right accent"></div>
+                    <div class="rectangle left"></div>
+                    <p class="heading">Стоимость сеансов</p>
+                    <div class="rectangle right"></div>
                 </div>
             </div>
             <div class="item price-grid-item-text">
                 <div class="string-with-rectangles">
-                    <div class="rectangle left small accent"></div>
+                    <div class="rectangle left small"></div>
                     <p class="session-name">RitmStyle с погружением</p>
                     <p class="session-price">1000р.</p>
                 </div>
                 <div class="string-with-rectangles">
-                    <div class="rectangle left small accent"></div>
+                    <div class="rectangle left small"></div>
                     <p class="session-name">Абонемент на RitmStyle</p>
                     <p class="session-price">5500р.</p>
                 </div>
                 <div class="string-with-rectangles">
-                    <div class="rectangle left small accent"></div>
+                    <div class="rectangle left small"></div>
                     <p class="session-name">RitmStyle для пар</p>
                     <p class="session-price">6000р.</p>
                 </div>
                 <div class="string-with-rectangles">
-                    <div class="rectangle left small accent"></div>
+                    <div class="rectangle left small"></div>
                     <p class="session-name">RitmStyle для беременных</p>
                     <p class="session-price">13500р.</p>
                 </div>
                 <div class="string-with-rectangles">
-                    <div class="rectangle left small accent"></div>
+                    <div class="rectangle left small"></div>
                     <p class="session-name">RitmStyle + фотосессия</p>
                     <p class="session-price">11500р.</p>
                 </div>
@@ -161,7 +178,7 @@
                     <img src="images/calendar.svg">
                     <p>Запись по договоренности</p>
                 </div>
-                <a href="">
+                <a id="open-popup" href="#" class="open-popup">
                     <div class="sign-up-button">
                         <p>Записаться на сеанс</p>
                     </div>
@@ -181,7 +198,7 @@
                     <img src="images/calendar.svg">
                     <p>Запись по договоренности</p>
                 </div>
-                <a href="">
+                <a id="open-popup" href="#" class="open-popup">
                     <div class="sign-up-button">
                         <p>Записаться на сеанс</p>
                     </div>
@@ -190,12 +207,29 @@
         </div>
     </main>
     <footer class="main-footer">
-        <p style="font-weight: 400;">© 2018-2022 RitmStyle</p>
-        <p style="font-weight: 700;">Сделано d-e-n.info</p>
+        <p>© 2018-2022 RitmStyle</p>
+        <p>Сделано d-e-n.info</p>
     </footer>
+
+    <div id="popup-bg" class="popup-bg">
+        <div class="popup">
+            <img class="close-popup" src="images/close-icon.png" alt="icon">
+            <form id="form" action="" onsubmit="return validateForm();">
+                <input type="text" id="name" name="popup-form" placeholder="Имя Фамилия" required>
+                <input type="email" name="popup-form" placeholder="Электронная почта" required>
+                <input type="tel" id="phone" name="popup-form" placeholder="Телефон" required>
+                <select name="select" required>
+                    <option value="value1" selected>Невский 140</option>
+                    <option value="value2" selected>3-й проезд Иванова</option>
+                </select>
+                <input type="submit" value="Отправить заявку">
+            </form>
+        </div>
+    </div>
 
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/slick/slick.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
-<script src="js/script.js"></script>
 </html>
