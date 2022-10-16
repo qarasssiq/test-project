@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-  Этот сайт я сверстал по макету из Figma: https://www.figma.com/file/qcmKp98gPYVyHQRSvVUxrX/Templates-%2322.-More-on-d-e-n.info для выполнения тестового задания одной it-компании.
+  Этот сайт я сверстал по макету из Figma: https://www.figma.com/file/qcmKp98gPYVyHQRSvVUxrX/Templates-%2322.-More-on-d-e-n.info для выполнения тестового задания одной it-компании. На сайт можно посмотреть самому по ссылке: https://qarasssiq.github.io/test-project/
 </td>
 </tr>
 </table>
@@ -21,7 +21,7 @@
 При нажатии на кнопку "Записаться на сеанс" появлется форма с полями для ввода данных и записи на сеанс.
 Реализована проверка введённых данных.
 
-![form](https://user-images.githubusercontent.com/57320850/192624162-ae0e6686-e745-4686-8526-8bed89982be0.jpg)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/57320850/196033464-3f7d7fb1-3eb0-4bce-8afe-ffb5587a9567.gif)
 
 Страница с новостями. При нажатии на новость, она открывается в отдельном окне.
 
